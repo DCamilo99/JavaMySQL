@@ -1,0 +1,7 @@
+CREATE TABLE `mensajes` (
+  `id_mensaje` int NOT NULL AUTO_INCREMENT,
+  `mensaje` varchar(280) NOT NULL,
+  `autor` varchar(45) NOT NULL,
+  `fecha` datetime NOT NULL,
+  PRIMARY KEY (`id_mensaje`)
+)
